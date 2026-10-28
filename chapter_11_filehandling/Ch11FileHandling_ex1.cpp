@@ -13,7 +13,7 @@ int main()
                                                         // stream variable and can have any name. Its like 'with open(filename.txt)' in python.
 
     if (!file)                                          // 'if conditional' statement used to check if file is opened. It is only for sanity
-    {                                                   // check to see if file exists but important.
+    {                                                   // check to see if file exists, but important.
         std::cout<<"\n Failed to open file.\n";
         return 1;                                       // 'return 1' causes program to exit main() hence ending the program.
     }
